@@ -78,8 +78,8 @@ public class Main {
     }
 
     // Подсчитать среднее значение зарплат.
-    public static Integer getAverageSalary(Employee[] employeesArray) {
-        return summSalaryInMonth(employeesArray) / employeesArray.length;
+    public static double getAverageSalary(Employee[] employeesArray) {
+        return (double)summSalaryInMonth(employeesArray) / employeesArray.length;
     }
 
     // Получить Ф. И. О. всех сотрудников (вывести в консоль)
